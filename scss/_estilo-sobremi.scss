@@ -1,0 +1,31 @@
+// Estilos de la seccion Sobre mi
+
+.div-sobremi{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: $color-alternativo;
+    color: $letra-oscura;
+
+    img{
+        height: 60vh;
+        width: auto;
+    }
+}
+
+.subtitulo{
+    @include flex-column-center;
+    background-color: $color-alternativo;
+    height: 20vh;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+@media (max-width:768px) {
+    .div-sobremi{
+    @include flex-column-center;
+    }
+}
+

@@ -1,0 +1,51 @@
+// ESTILOS DEL INDEX
+// TITULOS Y PRESENTACION DEL PROYECTO
+header{
+    background-color: $color-principal;
+    
+
+    .nav-link{
+        color: $color-alternativo;
+        font-weight: bold;
+        font-size: 3vh;
+    }
+}
+
+.titulos {
+    @include flex-column-center;
+    background-color: $color-alternativo;
+    height: 40vh;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+// Carrusel de imagenes
+
+.carousel-item img {
+    height: 55vh;
+}
+
+@media (min-width: 520px) {
+    .carousel-item img{
+        height: 30vh;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-item img{
+        height: 40vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel-item img{
+        height: 65vh;
+    }
+
+    #carouselExampleFade {
+        width: 60%;
+        margin: 0 auto;
+        background-color: $color-alternativo;
+    }
+}

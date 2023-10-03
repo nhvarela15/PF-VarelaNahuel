@@ -1,0 +1,19 @@
+// ESTILOS GENERALES
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: $bg-body;
+    font-family: 'Lato', sans-serif;
+}
+
+footer{
+    margin-top: 2rem;
+
+    .bi{
+        font-size: 4vh;
+        color: $color-principal;
+    }
+}

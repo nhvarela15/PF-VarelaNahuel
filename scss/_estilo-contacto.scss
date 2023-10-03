@@ -1,0 +1,13 @@
+// Estilo de la seccion Contacto
+
+.formulario{
+    @include flex-column-center;
+    background-color: $color-alternativo;
+    padding: 2rem;
+    margin: 2rem;
+
+}
+
+.titulo-formulario{
+    margin-top: 2rem;
+}

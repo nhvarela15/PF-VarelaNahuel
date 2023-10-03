@@ -1,0 +1,25 @@
+// Estilo de seccion Cursos
+
+.contenedor-cursos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0 ;
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:$color-alternativo;
+    color: $letra-oscura;
+}
+
+.contenedor img{
+    width: 480px;
+}
+}
+
+@media (max-width:768px) {
+    .contenedor{
+    @include flex-column-center;
+    }
+}
