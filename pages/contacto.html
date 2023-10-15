@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ETIQUETAS SEO -->
-    <meta name="description" content="En ésta seccion tendras un apartado para comunicarte conmigo, para hablarme sobre tus interes personales y demás">
+    <meta name="description" content="Tendras un apartado para comunicarte conmigo, para hablarme sobre tus interes personales y demás">
     <meta name="keyword" content="café, barismo, arte latte, cafeteria de especialidad, biografia, barista, contacto, reseña">
     <!-- FAV ICON -->
     <link rel="shortcut icon" href="../img/logo proyecto nc.png" type="image/x-icon">
@@ -30,43 +30,43 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                    <a class="nav-link" href="tienda.html">Tienda</a>
-                    <a class="nav-link" href="capacitaciones.html">Cursos</a>
-                    <a class="nav-link" href="sobremi.html">Sobre mí</a>
-                    <a class="nav-link" href="contacto.html">Contacto</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                        <a class="nav-link" href="capacitaciones.html">Cursos</a>
+                        <a class="nav-link" href="sobremi.html">Sobre mí</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main class="formulario">
-        <p>Contactate conmigo en este momento para poder ayudarte con lo que andas buscando</p>
-
+<main>
+    <h1 class="subtitulos">¡Contactate conmigo para poder ayudarte con lo que estás buscando!</h1>
+    <section class="formulario ">
         <form>
             <fieldset>
                 <legend>Tus datos</legend>
                 <div>
-                    <label for="nombre">Tu nombre</label>
-                    <input type="text"id="nombre">
+                    <label for="name">Nombre</label>
+                    <input id="name" type="text" placeholder="Escribe aquí tu nombre" name="nombre" required/>
                 </div>
-
+        
                 <div>
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
+                    <label for="correo">Email</label>
+                    <input id="correo" type="text" placeholder="Escribe aquí tu email" name="email" required/>
                 </div>
-
+        
                 <div>
-                    <label for="curso">Capacitación</label>
-                    <input type="text" id="curso">
+                    <label for="tel">Telefono</label>
+                    <input id="tel" type="text" placeholder="Escribe tú telefono" name="telefono" required/>
                 </div>
-
+        
                 <div>
-                    <label for="encuentro">Como me encontraste?</label>
-                    <input type="text" id="encuentro">
+                    <label for="comentario">¿Como me encontraste?</label>
+                    <textarea id="comentario" name="msg" rows="10"required></textarea>
                 </div>
-
+        
                 <div>
                     <input type="submit" value="Enviar formulario">
                     <input type="reset" value="Limpiar formulario">
@@ -74,36 +74,31 @@
 
             </fieldset>
         </form>
-
-        <div class="titulos titulo-formulario">
-            <h2 >Encuentrame actualmente trabajando en "Elcira"</h2>
-            <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13398.619308888321!2d-68.8465981!3d-32.9072933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09f0ff293e07%3A0xaa5d3e9b6d2090ce!2sELCIRA%20PUNTO%20DE%20ENCUENTRO!5e0!3m2!1ses-419!2sar!4v1692493918853!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-    </main>
+    </section>
+</main>
 
 
-    <footer>
-        <h3 class="text-center">Visita nuestras redes sociales</h3>
-        <div class="redes d-flex justify-content-center align-items-center">
-            <a href="https://instagram.com/nahuel_varela?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank" class="me-5">
+<footer>
+    <h3 class="text-center">Visita nuestras redes sociales</h3>
+    <div class="redes d-flex justify-content-center align-items-center">
+        <a href="https://instagram.com/nahuel_varela?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="_blank" class="me-5">
             <!-- ICONO INSTAGRAM -->
             <i class="bi bi-instagram"></i>
-            </a>
+        </a>
         
-            <a href="https://www.tiktok.com/@littlecake151?_t=8gBk1vcD0f0&_r=1" target="_blank" class="me-5">
+        <a href="https://www.tiktok.com/@littlecake151?_t=8gBk1vcD0f0&_r=1" target="_blank" class="me-5">
             <!-- ICONO TIKTOK -->
             <i class="bi bi-tiktok"></i>
-            </a>
+        </a>
         
-            <a href="https://api.whatsapp.com/send?phone=542616632629" target="_blank" class="me-5">
+        <a href="https://api.whatsapp.com/send?phone=542616632629" target="_blank" class="me-5">
             <!-- ICONO WPP -->
             <i class="bi bi-whatsapp"></i>
-            </a>
-        </div>
-        
-        <p class="text-center">Copyright ©2023 Todos los derechos reservados al creador Nahuel Varela</p>
-    </footer>
-    
+        </a>
+    </div>
+    <p class="text-center">Copyright ©2023 Todos los derechos reservados al creador Nahuel Varela</p>
+</footer>
+
     <!-- SCRIPT DE BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

@@ -1,13 +1,46 @@
 // Estilo de la seccion Contacto
 
+
+.subtitulos{
+        @include flex-column-center;
+        align-items: center;
+        height: 10vh;
+        padding: 2rem;
+        margin-top: 1rem;
+}
 .formulario{
-    @include flex-column-center;
-    background-color: $color-alternativo;
-    padding: 2rem;
-    margin: 2rem;
+@include flex-column-center;
+    height: 48rem;
 
 }
 
-.titulo-formulario{
-    margin-top: 2rem;
+.formulario form{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
 }
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+form input, form textarea{
+    outline: unset;
+    padding: 1rem;
+    min-width: 300px;
+    border: 1px solid $color-secundario;
+    border-radius: 1rem;
+}
+form input:focus, form textarea:focus {
+    background-color: $color-secundario;
+}
+
+form input[type-submit]{
+    background-color: $color-secundario;
+    color: $color-alternativo;
+    cursor: pointer;
+}
+
+
+
